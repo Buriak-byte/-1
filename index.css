@@ -1,0 +1,21 @@
+.qaz {
+  color: brown;
+  background-color: aliceblue;
+}
+.weny {
+  color: chartreuse;
+  font-size: 69px;
+  row-gap: ;
+}
+/* вирівнювання по центру */
+.bobrik {
+  text-align: center;
+}
+/* inherit--примусове наслідування */
+/* структурні псевдокласи */
+.bobrik:nth-child(3-n) {
+  color: coral;
+}
+.bobrik:nth-child(-n + 2) {
+  background-color: dodgerblue;
+}
